@@ -1,0 +1,32 @@
+PS C:\Users\d\temp> java -Xms2g -Xmx2g -Xloggc:gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
+正在执行...
+执行结束!共生成对象次数:18260
+
+
+
+
+Java HotSpot(TM) 64-Bit Server VM (25.261-b12) for windows-amd64 JRE (1.8.0_261-b12), built on Jun 18 2020 06:56:32 by "" with unknown MS VC++:1916
+Memory: 4k page, physical 16733532k(11550260k free), swap 23549276k(14147584k free)
+CommandLine flags: -XX:InitialHeapSize=2147483648 -XX:MaxHeapSize=2147483648 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseParallelGC 
+2020-10-29T00:36:12.540+0800: 0.383: [GC (Allocation Failure) [PSYoungGen: 524800K->87020K(611840K)] 524800K->140246K(2010112K), 0.0208443 secs] [Times: user=0.03 sys=0.09, real=0.02 secs] 
+2020-10-29T00:36:12.618+0800: 0.466: [GC (Allocation Failure) [PSYoungGen: 611820K->87031K(611840K)] 665046K->244223K(2010112K), 0.0283053 secs] [Times: user=0.11 sys=0.14, real=0.03 secs] 
+2020-10-29T00:36:12.712+0800: 0.552: [GC (Allocation Failure) [PSYoungGen: 611831K->87034K(611840K)] 769023K->360680K(2010112K), 0.0257335 secs] [Times: user=0.03 sys=0.09, real=0.02 secs] 
+2020-10-29T00:36:12.790+0800: 0.632: [GC (Allocation Failure) [PSYoungGen: 611834K->87027K(611840K)] 885480K->470941K(2010112K), 0.0246784 secs] [Times: user=0.03 sys=0.09, real=0.02 secs] 
+2020-10-29T00:36:12.868+0800: 0.712: [GC (Allocation Failure) [PSYoungGen: 611806K->87026K(611840K)] 995720K->594901K(2010112K), 0.0261706 secs] [Times: user=0.17 sys=0.08, real=0.03 secs] 
+2020-10-29T00:36:12.946+0800: 0.793: [GC (Allocation Failure) [PSYoungGen: 611826K->87023K(320000K)] 1119701K->698697K(1718272K), 0.0239913 secs] [Times: user=0.16 sys=0.09, real=0.03 secs] 
+2020-10-29T00:36:12.993+0800: 0.840: [GC (Allocation Failure) [PSYoungGen: 319983K->136527K(465920K)] 931657K->753290K(1864192K), 0.0146279 secs] [Times: user=0.11 sys=0.00, real=0.01 secs] 
+2020-10-29T00:36:13.040+0800: 0.882: [GC (Allocation Failure) [PSYoungGen: 369487K->173636K(465920K)] 986250K->804238K(1864192K), 0.0189197 secs] [Times: user=0.13 sys=0.00, real=0.02 secs] 
+2020-10-29T00:36:13.086+0800: 0.926: [GC (Allocation Failure) [PSYoungGen: 406596K->180934K(465920K)] 1037198K->841375K(1864192K), 0.0210659 secs] [Times: user=0.13 sys=0.00, real=0.02 secs] 
+2020-10-29T00:36:13.133+0800: 0.972: [GC (Allocation Failure) [PSYoungGen: 413894K->128658K(462336K)] 1074335K->877344K(1860608K), 0.0229204 secs] [Times: user=0.00 sys=0.13, real=0.02 secs] 
+2020-10-29T00:36:13.180+0800: 1.021: [GC (Allocation Failure) [PSYoungGen: 362642K->67226K(301568K)] 1111328K->920910K(1699840K), 0.0230171 secs] [Times: user=0.03 sys=0.05, real=0.02 secs] 
+2020-10-29T00:36:13.227+0800: 1.069: [GC (Allocation Failure) [PSYoungGen: 301210K->74178K(465920K)] 1154894K->980731K(1864192K), 0.0140168 secs] [Times: user=0.09 sys=0.03, real=0.02 secs] 
+2020-10-29T00:36:13.258+0800: 1.109: [GC (Allocation Failure) [PSYoungGen: 307138K->77543K(465920K)] 1213691K->1042702K(1864192K), 0.0148760 secs] [Times: user=0.08 sys=0.05, real=0.02 secs] 
+Heap
+ PSYoungGen      total 465920K, used 87103K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+  eden space 232960K, 4% used [0x00000000d5580000,0x00000000d5ed6178,0x00000000e3900000)
+  from space 232960K, 33% used [0x00000000e3900000,0x00000000e84b9c90,0x00000000f1c80000)
+  to   space 232960K, 0% used [0x00000000f1c80000,0x00000000f1c80000,0x0000000100000000)
+ ParOldGen       total 1398272K, used 965159K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+  object space 1398272K, 69% used [0x0000000080000000,0x00000000bae89ef8,0x00000000d5580000)
+ Metaspace       used 2714K, capacity 4486K, committed 4864K, reserved 1056768K
+  class space    used 291K, capacity 386K, committed 512K, reserved 1048576K
