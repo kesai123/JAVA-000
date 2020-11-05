@@ -10,7 +10,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class MyHttpInboundHandler  extends ChannelInboundHandlerAdapter {
-    private static Logger logger = LoggerFactory.getLogger(HttpInboundHandler.class);
+    private static Logger logger = LoggerFactory.getLogger(MyHttpInboundHandler.class);
     private final String proxyServer;
     private MyHttpOutboundHandler handler;
     private HttpRequestFilter filter;

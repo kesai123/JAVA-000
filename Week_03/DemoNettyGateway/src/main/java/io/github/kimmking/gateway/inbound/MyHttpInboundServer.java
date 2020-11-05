@@ -15,7 +15,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class MyHttpInboundServer {
-    private static Logger logger = LoggerFactory.getLogger(HttpInboundServer.class);
+    private static Logger logger = LoggerFactory.getLogger(MyHttpInboundServer.class);
     private int port;
     private String proxyServer;
 
